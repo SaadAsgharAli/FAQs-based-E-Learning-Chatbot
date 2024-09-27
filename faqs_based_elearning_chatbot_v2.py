@@ -7,13 +7,14 @@ Original file is located at
     https://colab.research.google.com/drive/1w6Dw4kVWu8pj-7tYUcgjWQ4AmkZyrYIO
 """
 
+import os
+
 # Commented out IPython magic to ensure Python compatibility.
 # I took help from this link: https://python.langchain.com/docs/integrations/chat/google_generative_ai/
 HF_TOKEN = os.getenv('HF_TOKEN') or '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'
 
 
-import getpass
-import os
+#import getpass
 
 if "GOOGLE_API_KEY" not in os.environ:
     print("not there at first")
