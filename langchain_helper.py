@@ -7,7 +7,7 @@ from langchain.prompts import PromptTemplate
 from langchain.chains import RetrievalQA
 import os
 
-api_key = os.getenv('GOOGLE_API_KEY')
+GOOGLE_API_KEY = os.getenv('GOOGLE_API_KEY')
 
 llm = ChatGoogleGenerativeAI(
     model="gemini-1.5-flash",
