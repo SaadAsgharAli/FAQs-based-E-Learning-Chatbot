@@ -1,0 +1,8 @@
+
+os
+ChatGoogleGenerativeAI
+langchain
+langchain-community
+sentence-transformers==2.2.2
+faiss-gpu
+streamlit
