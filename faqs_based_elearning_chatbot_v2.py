@@ -107,7 +107,7 @@ e = hf.embed_query("What is your refund policy?")
 len(e)
 # Model captures the meaning of "What is your refund policy"
 
-!pip install faiss-gpu
+!pip install faiss-cpu
 
 from langchain.vectorstores import FAISS
 from langchain.chains import RetrievalQA
