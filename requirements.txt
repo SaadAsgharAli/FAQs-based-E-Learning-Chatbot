@@ -3,7 +3,7 @@ langchain-google-genai
 langchain
 langchain-community
 sentence-transformers==2.2.2
-faiss-gpu
+faiss-cpu
 streamlit
 
 tiktoken
