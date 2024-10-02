@@ -11,7 +11,7 @@ import os
 
 # Commented out IPython magic to ensure Python compatibility.
 # I took help from this link: https://python.langchain.com/docs/integrations/chat/google_generative_ai/
-HF_TOKEN = os.getenv('HF_TOKEN') or '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'
+HF_TOKEN = os.getenv('HF_TOKEN')
 
 
 #import getpass
